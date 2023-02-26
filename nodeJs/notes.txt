@@ -1,0 +1,7 @@
+    Browser                                     Node Js
+->  Dom                                        No Dom
+->  Window                                     No Window
+->  Interactive Apps                           Server Side Apps
+->  No FileSystem                              FileSystem
+->  Fragmentation                              Versions
+->  ES6 Modules                                Common Js
