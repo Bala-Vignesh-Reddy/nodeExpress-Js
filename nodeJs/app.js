@@ -1,7 +1,11 @@
-const john = 'john'
+const names = require('./2-namesModule')
+// const {john, riya} = require('./2-namesModule')  another way to destructing it
 
-const sayHi = (name) =>{
-    console.log(`Hi ${name}`);
-}
+const sayHi = require('./2-utilsModule')
+
+console.log(names);
+
 sayHi('peter')
-sayHi(john)
+// sayHi(john)
+sayHi(names.john)
+sayHi(names.riya)
