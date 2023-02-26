@@ -1,9 +1,7 @@
 // Common Js, every file is module (by default)
 // Modules - Encapsulated Code (only share minimum)
-const john = 'john'
+// console.log(module) can be used to see the details of module
 
-const sayHi = (name) =>{
-    console.log(`Hi ${name}`);
-}
+
 sayHi('peter')
 sayHi(john)
