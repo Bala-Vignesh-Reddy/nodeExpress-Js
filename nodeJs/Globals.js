@@ -10,6 +10,7 @@
 console.log(__dirname);
 // console.log(process);
 
+//  A simple function
 setInterval(() => {
     console.log("hello World")
 }, 1000)
