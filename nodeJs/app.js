@@ -1,11 +1,5 @@
-const names = require('./2-namesModule')
-// const {john, riya} = require('./2-namesModule')  another way to destructing it
+const names = require('./3-alternative-way')
+require('./4-mind-grenade')
 
-const sayHi = require('./2-utilsModule')
-
-console.log(names);
-
-sayHi('peter')
-// sayHi(john)
-sayHi(names.john)
-sayHi(names.riya)
+// console.log(names.items);
+// console.log(names.singlePerson);
