@@ -14,3 +14,4 @@ add()
 // main file code can be
 // require('./4-mind-grenade')
 //this will do the same
+//output => num1 + num2 = 15
