@@ -13,3 +13,10 @@ sayHi('peter')
 // sayHi(john)
 sayHi(names.john)
 sayHi(names.riya)
+
+//more about modules and function inside modules
+const names = require('./3-alternative-way')
+require('./4-mind-grenade')
+
+console.log(names.items);
+console.log(names.singlePerson);
