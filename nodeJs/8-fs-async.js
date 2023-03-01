@@ -31,6 +31,6 @@ readFile('./contents/first.txt', 'utf8',  (err, result) => {
             console.log(result);
         })
         //if we do like this then this will turn into callback hell 
-        //we can use promises, async
+        //we can use promises, async and await
 })
 
