@@ -32,5 +32,6 @@ readFile('./contents/first.txt', 'utf8',  (err, result) => {
         })
         //if we do like this then this will turn into callback hell 
         //we can use promises, async and await
+    })
 })
 
