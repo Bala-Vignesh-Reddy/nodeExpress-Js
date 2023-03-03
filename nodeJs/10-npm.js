@@ -15,3 +15,7 @@
 
 
 // if we copy the repo or see other's project so we can use npm install to install the dependencies
+
+// if we use to install devdependencies so we can use -D --save-dev
+
+//  for uninstalling the package use npm uninstall <packageName>
