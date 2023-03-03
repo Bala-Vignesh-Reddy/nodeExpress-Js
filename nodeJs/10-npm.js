@@ -12,3 +12,6 @@
 
 // npm init (step by step, press enter to skip)
 // npm init -y (everything default)
+
+
+// if we copy the repo or see other's project so we can use npm install to install the dependencies
