@@ -42,3 +42,8 @@ util	                            To access utility functions
 v8	                                To access information about V8 (the JavaScript engine)
 vm	                                To compile JavaScript code in a virtual machine
 zlib	                            To compress or decompress files
+
+
+
+To Start Npm
+npm init
