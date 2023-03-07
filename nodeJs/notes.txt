@@ -47,3 +47,5 @@ zlib	                            To compress or decompress files
 
 To Start Npm
 npm init
+
+we cal also use npm init -y
