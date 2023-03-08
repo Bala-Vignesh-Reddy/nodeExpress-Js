@@ -19,3 +19,9 @@
 // if we use to install devdependencies so we can use -D --save-dev
 
 //  for uninstalling the package use npm uninstall <packageName>
+
+
+//for directly running the commands
+// in package.json in scripts if we write 
+// "start": "node app.js"
+// by this if we write (npm run start) so this command will execute 
