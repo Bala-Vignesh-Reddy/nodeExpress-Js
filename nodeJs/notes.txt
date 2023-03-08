@@ -44,7 +44,8 @@ vm	                                To compile JavaScript code in a virtual machi
 zlib	                            To compress or decompress files
 
 
-<<<<<<< HEAD
+
+NPM(Node Package Manager)
 npm - global command, comes with Node
 npm --version
 
@@ -67,7 +68,3 @@ if we copy the repo or see other's project so we can use npm install to install 
 if we use to install devdependencies so we can use -D --save-dev
 
  for uninstalling the package use npm uninstall <packageName>
-=======
-
-
->>>>>>> b52cfd32d92a352a954d49acb081f3db9fc70bb7
