@@ -44,6 +44,7 @@ vm	                                To compile JavaScript code in a virtual machi
 zlib	                            To compress or decompress files
 
 
+<<<<<<< HEAD
 npm - global command, comes with Node
 npm --version
 
@@ -58,3 +59,7 @@ manual approach (create package.json in the root, create properties etc)
 
 npm init (step by step, press enter to skip)
 npm init -y (everything default)
+=======
+
+
+>>>>>>> b52cfd32d92a352a954d49acb081f3db9fc70bb7
