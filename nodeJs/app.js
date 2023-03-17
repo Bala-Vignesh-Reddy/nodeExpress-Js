@@ -1,15 +1,15 @@
-const http = require ('http');
+// STREAMS
+// This are used to read or write sequentially
+// 4 types of stream
+// Writeable for writing
+// Readable for reading
+// Duplex for both
+// Transform to modify
 
-// const server = http.createServer((req, res) => {
-//     res.end('Welcome')
-// })
+const { createReadStream } = require('fs')
 
-//using Event Emitter API
-const server = http.createServer()
-//emits request event
-// subscribe to it/ listen for it/ respond to it
-server.on('request', (req, res) => {
-    res.end('Welcome')
+const stream = createReadStream('./contents/big.txt');
+
+stream.on('data', (result) => {
+    console.log(result)
 })
-
-server.listen(5000)
