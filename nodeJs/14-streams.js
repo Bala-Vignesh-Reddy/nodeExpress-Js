@@ -7,7 +7,6 @@
 // Transform to modify
 
 const { createReadStream } = require('fs')
-
 const stream = createReadStream('./contents/big.txt', {highWaterMark: 90000, encoding: 'utf8'});
 
 // default size of buffer is 64kb
