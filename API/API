@@ -12,3 +12,15 @@ API
 Joke API
 sv443.net/jokeapi/v2
 
+Weather API
+https://home.openweathermap.org/
+-> Generate API key then use it in the url
+for Eg. https://api.openweathermap.org/data/2.5/weather?q=Kalol&appid=e58d68d3ca1a9f8e2a64f9454ab40685&units=metric#
+
+Use postman we can easily craete url 
+
+Postman
+This can be used to make request to the server in much easier way and get the data in pretty.
+Returns in JSON formate
+
+JSON stands for Javascript Object Notation
