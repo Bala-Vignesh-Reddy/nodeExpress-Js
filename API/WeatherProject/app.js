@@ -13,7 +13,7 @@ app.get('/', function(req, res){
             //if we log data then we will get in hexadecimal format
             //these can be done to get in json format
             const weatherData = JSON.parse(data)
-            console.log(weatherData);
+            // console.log(weatherData);
 
             //for converting the object into string we can used JSON.stringify()
             // const obj = {
@@ -21,6 +21,10 @@ app.get('/', function(req, res){
             //     hobby: "coding"
             // }
             // console.log(JSON.stringify(obj));
+
+            const temp = weatherData.main.temp; //if we have complex json then we can use the extension installed in chrome
+            const description = weatherData.weather[0].description;
+            console.log(description);
         })
     })
 
