@@ -15,9 +15,9 @@ app.post("/", function(req, res){
     const appid = "e58d68d3ca1a9f8e2a64f9454ab40685"
     const unit = "metric"
     const url = "https://api.openweathermap.org/data/2.5/weather?q="+ query +"&appid=" + appid + "&units=" + unit
+    
     https.get(url, function(response){
         // console.log(response.statusCode);
-
         response.on('data', function(data){
             //if we log data then we will get in hexadecimal format
             //these can be done to get in json format
@@ -41,10 +41,8 @@ app.post("/", function(req, res){
             res.send()
         })
     })
-
     // res.send("Server is up and running");
 })
-
 
 
 
