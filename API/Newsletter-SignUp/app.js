@@ -14,8 +14,13 @@ app.get('/', (req, res) => {
 })
 
 app.post('/', (req, res) => {
-  
+  let firstName = req.body.fName;
+  let lastName = req.body.lName;
+  let email = req.body.email;
+
+  console.log(firstName, lastName, email);  
 })
+
 
 app.listen(3000, () => {
   console.log("Server is running on port 3000.")
