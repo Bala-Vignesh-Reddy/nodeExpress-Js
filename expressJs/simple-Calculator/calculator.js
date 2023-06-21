@@ -8,8 +8,6 @@ app.get('/', (req, res) => {
 //  res.sendFile('index.html') // this can be used when locally
   res.sendFile(path.join(__dirname + "/index.html"))  
 })
-
-
 //calculation of BMI
 app.get('/bmicalculator', (req, res) => {
   res.sendFile(__dirname + '/bmiCalculator.html')
