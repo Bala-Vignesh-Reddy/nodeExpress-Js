@@ -9,6 +9,7 @@ app.use(express.static('public'))
 
 app.get('/', (req, res) => {
   res.sendFile(__dirname + '/signup.html');
+  
   // res.sendFile(__dirname + '/sign-in.css')
 })
 

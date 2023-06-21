@@ -41,7 +41,8 @@ app.post("/", function(req, res){
             res.send()
         })
     })
-    // res.send("Server is up and running");
+    
+//     res.send("Server is up and running");
 })
 
 
