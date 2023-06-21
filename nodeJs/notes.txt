@@ -70,3 +70,19 @@ if we use to install devdependencies so we can use -D --save-dev
 
  for uninstalling the package use npm uninstall <packageName>
 
+
+
+If we clone anyones project then
+
+delete if any node_modules folder present
+and delete package-lock.json and yarn.lock
+
+after this install using npm i
+
+If you get error now also then you have to use the command 
+
+npm config set legacy-peer-deps true
+
+//this cmd will ignore the peerDependencies
+
+then install using npm i
