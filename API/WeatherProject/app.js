@@ -23,7 +23,6 @@ app.post("/", function(req, res){
             //these can be done to get in json format
             const weatherData = JSON.parse(data)
             // console.log(weatherData);
-
             //for converting the object into string we can used JSON.stringify()
             // const obj = {
             //     name: "Bala",
