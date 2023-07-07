@@ -23,6 +23,6 @@ inquirer.prompt([
     if (error.isTtyError) {
         //
     } else {
-      // Something else went wrong
+      // 
     }
   });
