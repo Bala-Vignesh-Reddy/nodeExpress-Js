@@ -21,8 +21,6 @@ inquirer.prompt([
   })
   .catch((error) => {
     if (error.isTtyError) {
-        //
     } else {
-      // 
     }
   });
